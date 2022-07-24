@@ -1,0 +1,52 @@
+.searchbox{
+    display: flex;
+    align-items: center;
+    /* 335px/375px */
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0.20);
+    border: 0 solid rgba(0,0,0,0.10);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+    border-radius: 27.5px;
+    color: #fff;
+}
+.icon-search{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.searchbox-form{
+    flex: 1;
+    margin-left:10px ;
+    margin-right: 20px;
+
+}
+.searchbox-input{
+    width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* placeholder颜色适配 */
+.searchbox-input::-webkit-input-placeholder {
+    /* WebKit browsers 适配 Chrome */
+    color: #fff;
+  }
+  
+  .searchbox-input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 适配 Firefox */
+    color: #fff;
+  }
+  
+  .searchbox-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ 适配 Firefox */
+    color: #fff;
+  }
+  
+  .searchbox-input:-ms-input-placeholder {
+    /* Internet Explorer 10+  适配 IE */
+    color: #fff;
+  }
+  

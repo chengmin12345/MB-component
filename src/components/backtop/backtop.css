@@ -1,0 +1,17 @@
+.backtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(39,195,147,.8);
+}
+.iconfont{
+    color: #fff;
+    font-size: 30px;
+}
+/* 默认隐藏，添加一个class */
+.backtop-hidden{
+    display: none!important;
+}

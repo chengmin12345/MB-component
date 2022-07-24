@@ -1,0 +1,8 @@
+<div class="personal-back-img"></div>
+<div class="personal-info">
+    <div class="personal-img">
+        <img src="./User_base.png" alt="">
+    </div>
+    <p class="personal-name">王豆豆</p>
+    <p class="personal-tele">18911023266</p>
+</div>

@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 34.5px;
+
+}
+.nav-item{
+    width: 25%;
+    margin-bottom: 20.5px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav-img{
+    /* 只设置宽度，高度自适应 */
+    /* 44px /  (375/4)px */
+    width: 46.9333333%;
+    margin-bottom: 5.5px;
+
+}
+.nav-text{
+    font-size: 12px;
+    color: #999999;
+}

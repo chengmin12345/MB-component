@@ -1,0 +1,22 @@
+.tabcenter{
+    width: 100%;
+    padding: 0 20px;
+}
+.tabcenter-list{
+    height: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.tabcenter-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item-text{
+    font-size: 14px;
+    color: #262626;
+    font-weight: bold;
+}
+.iconfont{
+    color: #C2C4CA
+}

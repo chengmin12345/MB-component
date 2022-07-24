@@ -1,0 +1,13 @@
+.tab-layout{
+    width: 76px;
+    background-color: #fafafa;
+}
+.content-layout{
+    /* 在内容区域添加滚动条 */
+    overflow-y: auto;
+    flex: 1;
+    /* background-color: red; */
+}
+.content-layout .loading{
+    padding: 50px 0;
+}
